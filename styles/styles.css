@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('slkscr-webfont.eot');
+    src: url('slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscr-webfont.woff2') format('woff2'),
+         url('slkscr-webfont.woff') format('woff'),
+         url('slkscr-webfont.ttf') format('truetype'),
+         url('slkscr-webfont.svg#silkscreennormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 *{
     margin : 0;
     padding: 0;
@@ -23,9 +37,12 @@ body::before {
     background-position: center;
   }
 nav{
+    font-family: 'silkscreennormal';;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-weight: 800;
+    font-size: larger;
     
   }
 .nav-container{
